@@ -1,0 +1,59 @@
+/* HEADER */
+header {
+    background-color: var(--back-black-soft);
+}
+
+header nav,
+header div,
+nav .left a {
+    display:flex;
+    align-items: center;
+    gap: 20px;
+}
+
+nav {
+    justify-content: space-between;
+    padding: 20px;
+    padding-right: 96px; 
+}
+
+/* spotify image */
+nav .left a img:first-child {
+    width: 45px;
+}
+
+nav .left a img:last-child {
+    width: 20%;
+    min-width: 100px;
+}
+
+nav .left a {
+    transition: 0.3s ease;
+}
+
+nav .left a:hover {
+    transform: scale(0.98);
+    filter: drop-shadow(0 0 5px var(--white-hv));
+}
+
+nav .right {
+    font-family: 'Kulim Park', sans-serif;
+    gap: 3em;
+}
+
+nav .right a {
+    transition: 0.3s ease;
+}
+
+nav .right a:hover {
+    color: var(--text-hv);
+    transform: translateY(-2px);
+}
+
+/* bolinha que separa os nomes */
+nav span {
+    width: 6px;
+    height: 6px;
+    background: var(--white);
+    border-radius: 100%;
+}

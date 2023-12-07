@@ -1,0 +1,48 @@
+/* SECTION 2 */
+.second-section {
+    font-family: 'Prompt', sans-serif;
+    font-weight: lighter;
+    display: flex;
+    justify-content: center;
+    margin-top: 150px;
+}
+
+.second-section .container {
+    display: flex;
+    flex-direction: column;
+    gap: 64px;
+}
+
+.second-section .top .card {
+    background: var(--white);
+    width: 24em;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.second-section p {
+    max-width: 400px;
+}
+.second-section .top .card img {
+    width: 15em;
+    position: absolute;
+    bottom: 0;
+}
+
+.second-section .top {
+    display: flex;
+    text-align: end;
+    justify-content: space-between;
+    gap: 50px;
+}
+
+.second-section .bottom {
+    display: flex;
+    align-items: flex-end;
+    justify-content: space-between;
+}
+
+.second-section .bottom img {
+    width: 20%;
+}

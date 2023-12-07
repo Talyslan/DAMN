@@ -1,0 +1,88 @@
+/* SECTION 1 */
+.first-section {
+    display: flex;
+    justify-content: space-around;
+    text-align: center;
+    padding: 2em;
+}
+
+.first-section .musics-left {
+    background: var(--back-black-soft);
+    min-width: 25%;
+    border-radius: 20px;
+    padding: 1.5em 0.75em; /*24px 12px*/
+}
+
+.first-section .musics-left span:first-child {
+    font-family: 'Kodchasan', sans-serif;
+    font-size: 1.5em;
+}
+
+.first-section .musics-left .music-list {
+    display: flex;
+    flex-direction: column;
+    gap: 2em;
+    margin-top: 1em;
+}
+
+.first-section .musics-left .music {
+    font-family: 'Poppins', sans-serif;
+    font-size: 1em;
+    letter-spacing: 2px;
+    background: var(--back-music);
+    display: flex;
+    align-items: center;
+    gap: .5em;
+    border-radius: 5px;
+    box-shadow: 0 3px 10px var(--card-box);
+    transition: 0.3s ease;
+}
+
+.first-section .musics-left .music-list .music:hover {
+    background: var(--back-music-hv);
+    font-size: 1.1em;
+}
+
+.first-section .musics-left .music-list .music:hover img {
+    transform: scale(1.095);
+}
+
+.first-section .musics-left .music img {
+    width: 20%;
+    min-width: 75px;
+    transition: 0.3s ease;
+}
+
+.first-section .init-right {
+    font-family: 'Poppins', sans-serif;
+    font-weight: bold;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.first-section .init-right h1 {
+    margin-bottom: 3em;
+    font-size: 2.5em;
+}
+
+.first-section .init-right h2 {
+    font-family: 'Prompt', sans-serif;
+    font-weight: lighter;
+}
+
+.first-section .init-right .card {
+    background: var(--white);
+    width: 120%;
+    height: 45%;
+    display: flex;
+    justify-content: center;
+    position: relative;
+}
+
+.first-section .init-right .card img {
+    width: 90%;
+    position: absolute;
+    bottom: 0;
+}

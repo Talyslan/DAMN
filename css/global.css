@@ -1,0 +1,81 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Serif+Text&family=Kodchasan&family=Kulim+Park&family=Poppins:wght@500;700;800&family=Prompt:ital,wght@1,200&family=Zen+Old+Mincho:wght@900&display=swap');
+
+/*
+font-family: 'DM Serif Text', serif;
+font-family: 'Kodchasan', sans-serif;
+font-family: 'Kulim Park', sans-serif;
+font-family: 'Poppins', sans-serif;
+font-family: 'Prompt', sans-serif;
+font-family: 'Zen Old Mincho', serif;
+*/
+:root {
+    --back-black: #141414;
+    --back-black-soft: #181818;
+    --white: #fff; 
+    --white-hv: #ffffff83;
+    --card-box: rgba(50, 50, 50, 0.423);
+    --text-red: #FC0203;
+    --text-hv: #b6b6b6;
+    --back-music: #0C0C0C;
+    --back-music-hv: #252525;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-color: var(--back-black);
+    color: var(--white);
+}
+
+a {
+    text-decoration: none;
+    color: var(--white);
+}
+
+/* TODAS AS OUTRAS SECTIONS */
+.fourth-section,
+.fifth-section,
+.sixth-section,
+.seventh-section,
+.eighth-section {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 150px;
+    margin-bottom: 200px;
+    text-align: center;
+}
+
+.fourth-section h3,
+.fifth-section h3,
+.sixth-section h3,
+.seventh-section h3,
+.eighth-section h3 {
+    font-size: 1.5em;
+    margin: 2em;
+    color: var(--text-red);
+}
+
+.fourth-section img,
+.fifth-section img,
+.sixth-section img,
+.seventh-section img,
+.eighth-section img {
+    width: 25%;
+    border-radius: 12px;
+}
+
+.fourth-section p,
+.fifth-section p,
+.sixth-section p,
+.seventh-section p,
+.eighth-section p {
+    font-family: 'DM Serif Text', serif;
+    max-width: 500px;
+    margin: 1em;
+    font-size: .9em;
+}
