@@ -66,11 +66,6 @@
 
 .first-section .musics-left .music-list .music:hover {
     background: var(--back-music-hv);
-    font-size: 1.1em;
-}
-
-.first-section .musics-left .music-list .music:hover img {
-    transform: scale(1.095);
 }
 
 .first-section .musics-left .music img {

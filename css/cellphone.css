@@ -1,0 +1,46 @@
+@media (max-width:1000px) {
+    .first-section {
+        flex-direction: column;
+        gap: 2em;
+    }
+
+    .first-section .musics-left .music {
+        background: none;
+        box-shadow: none;
+        justify-content: center;
+    }
+
+    .first-section .musics-left .music span {
+        display: none;
+    }
+
+    .first-section .musics-left .music-list {
+        flex-direction: row;
+        flex-wrap: wrap;
+        justify-content: center;
+    }
+
+    .first-section .init-right .card {
+        width: 50%;
+        margin-top: 150px;
+    }
+
+    .first-section .musics-left .music img {
+        border-radius: 20%;
+    }
+
+    .second-section .top .card {
+        margin-top: 10em;
+    }
+
+    .second-section .top,
+    .second-section .bottom {
+        flex-direction: column;
+        align-items: center;
+        gap: 2em;
+    }
+
+    .second-section .bottom img {
+        width: 70%;
+    }
+}
