@@ -1,8 +1,8 @@
 <h1 align="center"> DAMN 🧑‍🎤</h1>
-<!-- 
-<img height="500" src="" alt="Layout no Computador" />
-<img height="500" src="" alt="Layout no Celular" /> 
- -->
+
+<img height="500" src="https://github.com/Talyslan/DAMN/assets/78499700/88b26d1c-00f3-4515-96ff-5e9da8c4459e" alt="Layout no Computador" />
+<img height="500" src="https://github.com/Talyslan/DAMN/assets/78499700/f92aa549-6b5a-4a00-a6a5-04fb7f156f2f" alt="Layout no Celular 1" /> 
+<img height="500" src="https://github.com/Talyslan/DAMN/assets/78499700/6f503630-7863-436b-9229-6bf1eeefba73" alt="Layout no Celular 2" /> 
 
 ## 🛸 O Projeto
 <img height="200" src="https://i.pinimg.com/originals/dd/22/86/dd2286ffe6823f760831929860ec56e6.gif" alt="gif" />
