@@ -3,6 +3,42 @@ footer {
     background: var(--back-black-soft);
     position: fixed;
     width: 100%;
-    height: 1.6em;
+    height: 2em;
     bottom: 0;
+    gap: 2em;
+}
+
+footer,
+.social-midias,
+.social-midias a {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+footer a img {
+    width: 2em;
+    padding: 4px;
+    filter: grayscale(1);
+    opacity: .75;
+    border-radius: 4px;
+    transition: 0.3s ease;
+}
+
+footer a img:hover {
+    opacity: 1;
+}
+
+footer span {
+    opacity: .5;
+    font-size: .8rem;
+    transition: 0.3s ease;
+}
+
+footer span:hover {
+    opacity: 1;
+}
+
+footer span a:hover {
+    text-decoration: underline;
 }

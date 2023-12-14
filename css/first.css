@@ -3,7 +3,6 @@
     display: flex;
     justify-content: space-around;
     text-align: center;
-    padding: 2em;
 }
 
 @keyframes fadeInLeft {
@@ -36,7 +35,7 @@
     background: var(--back-black-soft);
     min-width: 25%;
     border-radius: 20px;
-    padding: 1.5em 0.75em; /*24px 12px*/
+    padding: 1em 1em; /*24px 12px*/
 }
 
 .first-section .musics-left span:first-child {
@@ -69,8 +68,9 @@
 }
 
 .first-section .musics-left .music img {
-    width: 20%;
-    min-width: 75px;
+    width: 100%;
+    max-width: 70px;
+    min-width: 60px;
     transition: 0.3s ease;
 }
 

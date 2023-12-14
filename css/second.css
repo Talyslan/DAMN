@@ -10,39 +10,40 @@
 .second-section .container {
     display: flex;
     flex-direction: column;
-    gap: 64px;
+    gap: 4em;
 }
 
 .second-section .top .card {
-    background: var(--white);
-    width: 24em;
+    background: var(--damn-color);
+    width: 20em;
     display: flex;
     justify-content: center;
     position: relative;
 }
 
-.second-section p {
-    max-width: 400px;
-}
 .second-section .top .card img {
-    width: 15em;
+    max-width: 280px;
+    width: 100%;
     position: absolute;
     bottom: 0;
 }
 
-.second-section .top {
+.second-section p {
+    font-size: 1.1em;
+    max-width: 500px;
+}
+
+.second-section .top,
+.second-section .bottom {
     display: flex;
-    text-align: end;
-    justify-content: space-between;
-    gap: 50px;
+    gap: 4em;
 }
 
 .second-section .bottom {
-    display: flex;
-    align-items: flex-end;
-    justify-content: space-between;
+    align-items: flex-start;
 }
 
 .second-section .bottom img {
-    width: 20%;
+    max-width: 350px;
+    width: 100%;
 }
