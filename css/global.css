@@ -27,6 +27,7 @@ font-family: 'Zen Old Mincho', serif;
     padding: 0;
     box-sizing: border-box;
     scroll-behavior: smooth;
+    overflow-x: hidden;
     font-family: 'Prompt', sans-serif;
 }
 
@@ -47,7 +48,6 @@ body::-webkit-scrollbar-thumb {
 body {
     background-color: var(--back-black);
     color: var(--white);
-    overflow-x: hidden;
 }
 
 main {

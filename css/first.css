@@ -46,7 +46,7 @@
 .first-section .musics-left .music-list {
     display: flex;
     flex-direction: column;
-    gap: 2em;
+    gap: 1.5em;
     margin-top: 1em;
 }
 
@@ -57,7 +57,7 @@
     background: var(--back-music);
     display: flex;
     align-items: center;
-    gap: .5em;
+    /* gap: .5em; */
     border-radius: 5px;
     box-shadow: 0 3px 10px var(--card-box);
     transition: 0.3s ease;
@@ -70,7 +70,7 @@
 .first-section .musics-left .music img {
     width: 100%;
     max-width: 70px;
-    min-width: 60px;
+    min-width: 40px;
     transition: 0.3s ease;
 }
 
