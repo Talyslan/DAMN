@@ -20,9 +20,24 @@
         justify-content: center;
     }
 
+    .first-section .init-right h1 {
+        margin-bottom: 0;
+        font-size: 2em;
+    }
+
+    .first-section .init-right h2 {
+        font-size: 1.3em;
+    }
+
     .first-section .init-right .card {
-        width: 50%;
-        margin-top: 150px;
+        max-width: 300px;
+        width: 100%;
+        background: transparent;
+        position: inherit;
+    }
+
+    .first-section .init-right .card img {
+        position: inherit;
     }
 
     .first-section .musics-left .music img {
@@ -38,9 +53,55 @@
         flex-direction: column;
         align-items: center;
         gap: 2em;
+        text-align: center;
+    }
+
+    .second-section p {
+        font-size: 1em;
     }
 
     .second-section .bottom img {
         width: 70%;
     }
+
+    .third-section h2 {
+        font-size: 2em;
+    }
+
+    .fourth-section h3,
+    .fifth-section h3,
+    .sixth-section h3,
+    .seventh-section h3,
+    .eighth-section h3 {
+        font-size: 2em;
+    }
+
+    .fourth-section p,
+    .fifth-section p,
+    .sixth-section p,
+    .seventh-section p,
+    .eighth-section p {
+        font-size: .9em;
+    }
+
+    .fourth-section,
+    .fifth-section,
+    .sixth-section,
+    .seventh-section,
+    .eighth-section {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        margin-top: 50px;
+        margin-bottom: 50px;
+        text-align: center;
+    }
+
+    .eighth-section {
+        margin-bottom: 100px;
+    }
+}
+
+@media (max-width: 650px) {
+
 }
